@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Галерея Кыргызстана</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <h1><a href="index.html">Кыргызстан</a></h1>
+  <div class="menu-toggle" id="menu-toggle">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <nav class="nav" id="nav">
+    <a href="index.html">Главная</a>
+    <a href="history.html">История</a>
+    <a href="events.html">События</a>
+    <a href="culture.html">Культура</a>
+    <a href="gallery.html">Галерея</a>
+  </nav>
+</header>
+
+
+<main class="page-container">
+  <section class="content">
+    <h2>Галерея</h2>
+    <div class="gallery-grid">
+      <img src="img/Bishkek, Krygyzstan.jpeg" alt="">
+      <img src="img/9SMJ0kQi.jpeg" alt="">
+      <img src="img/bkYd-ncr.jpeg" alt="">
+      <img src="img/Everything you need to know about the 3-day trek….jpeg" alt="">
+      <img src="img/Folk of the Kyrgyz people, Kyrgyz culture, Tours….jpeg" alt="">
+      <img src="img/Kyrgyz hospitality_ _Kyrgyzstan, officially the….jpeg" alt="">
+      <img src="img/Kyrgyz national instruments in the museum.jpeg" alt="">
+      <img src="img/Kyrgyzstan - Top 10 Places to See - Kalpak Travel.jpeg" alt="">
+      <img src="img/oj3j0_Qm.jpeg" alt="">
+      <img src="img/qJG6j_lv.jpeg" alt="">
+
+
+      <!-- Можешь потом добавить ещё фотографии -->
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>© 2025 Кыргызстан. Все права защищены.</p>
+</footer>
+<script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const nav = document.getElementById('nav');
+    
+    menuToggle.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+    </script>
+</body>
+</html>

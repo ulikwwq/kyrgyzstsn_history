@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/flag.jpeg" type="image/png">
+  <title>Герои Кыргызстана</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <h1><a href="index.html">Кыргызстан</a></h1>
+    <div class="menu-toggle" id="menu-toggle">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <nav class="nav" id="nav">
+      <a href="index.html">Главная</a>
+      <a href="history.html">История</a>
+      <a href="events.html">События</a>
+      <a href="culture.html">Культура</a>
+      <a href="heroes.html">Герои</a>
+      <a href="gallery.html">Галерея</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="page-container">
+    
+  </main>
+  
+
+  <!-- Footer -->
+  <footer class="footer">
+    © 2025 История Кыргызстана
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const nav = document.getElementById('nav');
+    
+    menuToggle.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>

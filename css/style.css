@@ -227,20 +227,20 @@ p{
 }
 
 .btn {
-  background-color: #3498db;
-  color: #fff;
+  /* background-color: #3498db; */
+  color: #f9f9f9;
   padding: 14px 40px;
   border-radius: 40px;
   font-size: 1.3rem;
   font-weight: 700;
   text-transform: uppercase;
-  box-shadow: 0 6px 15px rgba(253, 254, 255, 0.5);
+  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.5);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .btn:hover {
-  background-color: #2980b9;
-  color: #eaf6fb;
+  /* background-color: #2980b9; */
+  color: #f9f9f9;
   cursor: pointer;
 }
 
@@ -418,8 +418,8 @@ p{
 .btn {
   display: inline-block;
   padding: 12px 25px;
-  background-color: #787878;
-  color: #fff;
+  background-color: #f9f9f9;
+  color: #2c3e50;
   font-size: 1.2em;
   border-radius: 30px;
   text-decoration: none;
@@ -428,8 +428,7 @@ p{
 }
 
 .btn:hover {
-  background-color: #787878;
-  color: rgb(140, 181, 181);
+  color: rgb(180, 237, 237);
   transition: 0.3s;
 }
 

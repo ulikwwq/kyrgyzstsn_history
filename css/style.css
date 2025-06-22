@@ -519,6 +519,172 @@ p{
   box-sizing: border-box;
 }
 
+/* Стили для секции героя (отдельно) */
+.hero-bio-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 10px;
+}
+
+.hero-bio {
+  display: flex;
+  gap: 32px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 6px 24px rgba(52, 152, 219, 0.07);
+  margin-bottom: 40px;
+  align-items: flex-start;
+  padding: 32px 24px;
+  flex-wrap: wrap;
+}
+
+.hero-img-block {
+  flex: 0 0 233.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-img-block img {
+  width: 233.3px;
+  height: 377.417px;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(52,152,219,0.10);
+  background: #f4f4f4;
+}
+
+.hero-bio-content {
+  flex: 1 1 200px;
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-bio-content h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.hero-bio-years {
+  color: #3498db;
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+  letter-spacing: 0.01em;
+}
+
+.hero-bio-content p {
+  font-size: 1.07rem;
+  color: #34495e;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+  .hero-bio {
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 8px;
+    gap: 18px;
+  }
+  .hero-img-block img {
+    width: 140px;
+    height: 227px;
+  }
+  .hero-bio-content h1 {
+    font-size: 1.15rem;
+  }
+}
+.bio-hero-full {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 6px 24px rgba(52, 152, 219, 0.07);
+  padding: 32px 24px 32px 24px;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+}
+
+.bio-hero-full h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.bio-hero-img {
+  display: block;
+  margin: 0 auto 18px auto;
+  width: 233.3px;
+  height: 377.417px;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(52,152,219,0.10);
+  background: #f4f4f4;
+}
+
+.hero-bio-years {
+  color: #3498db;
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+.bio-hero-full h2 {
+  font-size: 1.13rem;
+  font-weight: 600;
+  color: #222;
+  margin: 22px 0 10px 0;
+}
+
+.bio-hero-full p,
+.bio-hero-full ul {
+  font-size: 1.07rem;
+  color: #34495e;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.bio-hero-full ul {
+  list-style: disc inside;
+  margin-bottom: 16px;
+  padding-left: 0;
+}
+
+.bio-hero-full ul li {
+  margin-bottom: 7px;
+}
+
+.bio-hero-full a {
+  color: #3498db;
+  text-decoration: underline;
+}
+
+.bio-hero-full a:hover {
+  color: #217dbb;
+}
+
+/* Адаптивность */
+@media (max-width: 700px) {
+  .bio-hero-full {
+    padding: 14px 5px 22px 5px;
+  }
+  .bio-hero-img {
+    width: 140px;
+    height: 227px;
+  }
+  .bio-hero-full h1 {
+    font-size: 1.15rem;
+  }
+}
+
+
 /* Ограничение размеров изображений */
 .hero-item img {
   width: 100%;
